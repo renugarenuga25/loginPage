@@ -111,10 +111,6 @@ function Login({ onLoginSuccess }: LoginProps) {
             {loading ? 'Logging in...' : 'Login'}
           </button>
         </form>
-
-        <div className="mt-6 text-center text-sm text-gray-600">
-          <p>Hint: Use username "admin" and password "admin"</p>
-        </div>
       </div>
     </div>
   );
